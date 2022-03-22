@@ -1,0 +1,511 @@
+/* ================ extra small screen ================ */
+@media screen and (max-width: 575px) {
+  small {
+    font-size: 0.875em;
+  }
+  /* ================== header section ================== */
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /*  ================= About me section ================= */
+  .about-me-content {
+    flex-direction: column;
+  }
+  #contact-button {
+    text-align: center;
+  }
+  .my-image {
+    width: 85%;
+    margin: 2rem auto 0;
+    padding: 0;
+  }
+  .links-download-button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stroke-line {
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  .social-links {
+    margin-top: 1.5rem;
+  }
+
+  .social-links a {
+    display: inline-grid;
+    width: 32px;
+    height: 32px;
+  }
+
+  /* ============ features section ============ */
+  .feature-box {
+    margin: 0 1rem;
+  }
+
+  /* ============ portfolio section ============ */
+  .portfolio-box {
+    padding: 1rem;
+  }
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    width: 94%;
+    /* margin: 3rem auto; */
+    padding: 3rem 1rem;
+  }
+  #toggle-content {
+    padding: 1.5rem 0;
+  }
+
+  /* ================ testimonial section ================ */
+  /* .arrow-buttons {
+    font-size: 1rem;
+    top: 1rem;
+    right: 1rem;
+  } */
+
+  /* ================= pricing section ================= */
+
+  .choose-a-plan {
+    flex-basis: 100%;
+  }
+
+  .pricing-section-content {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .price > a {
+    padding: 1.2rem 0;
+  }
+
+  .package-price {
+    width: 90%;
+    margin: auto;
+  }
+
+  .price > a {
+    background: var(--box-background);
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+  }
+
+  #service-and-price-column {
+    padding: 0 2rem;
+  }
+
+  .price-and-service-quality {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .price-of-package {
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin-top: 10px;
+  }
+
+  .col.service-items {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0 0;
+  }
+
+  .col.service-items .list-items {
+    padding-left: 1.1rem;
+  }
+
+  #delevery-notice > small {
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  /* ============= testimonial section ============= */
+  .client-message-box {
+    padding: 2rem 1rem;
+  }
+
+  .swiper-button {
+    display: none;
+  }
+
+  /* .arrow-buttons {
+    width: 55px;
+  } */
+}
+/* ================ small screen ================ */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* utilities */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  /* ================= header section ================= */
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 400px;
+  }
+
+  /*  ================= About me section ================= */
+  .about-me-content {
+    flex-direction: column;
+  }
+  .my-image {
+    width: 75%;
+    margin: 2rem auto 0;
+  }
+  .links-download-button {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .social-links {
+    margin-top: 2rem;
+  }
+  .social-links a {
+    display: inline-grid;
+    width: 35px;
+    height: 35px;
+  }
+
+  /* ============= portfolio section  =============*/
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    /* margin: 3rem auto; */
+  }
+
+  #toggle-content {
+    padding: 1.5rem 0;
+  }
+
+  /* ================= pricing section ================= */
+  .choose-a-plan {
+    flex-basis: 100%;
+  }
+
+  .pricing-section-text-p {
+    margin-bottom: 1.5rem;
+  }
+
+  .price > a {
+    background: var(--box-background);
+    box-shadow: var(--shadow);
+    padding: 1.2rem 0;
+  }
+
+  /* ================ testimonial section ================ */
+  .client-message-box {
+    padding: 3rem 1rem;
+  }
+
+  .swiper-button {
+    display: none;
+  }
+  /* .arrow-buttons {
+    font-size: 1.3rem;
+    top: 1.3rem;
+    right: 1.3rem;
+  } */
+}
+/* ================ medium screen ================ */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* utilities */
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  /* ================= header section ================= */
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 400px;
+  }
+  .carousel-caption {
+    width: 65%;
+    text-align: left;
+    margin: 0 auto 5rem;
+  }
+
+  /*  ================= About me section ================= */
+  .about-me-content {
+    flex-direction: column;
+  }
+  .my-image {
+    width: 75%;
+    margin: 2rem auto 0;
+  }
+
+  .stroke-line {
+    width: 80px;
+  }
+
+  /* ============ portfolio section ============ */
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    /* margin: 4rem 0; */
+  }
+
+  #toggle-content {
+    padding: 2rem 0;
+  }
+
+  /* ================= pricing section ================= */
+  .choose-a-plan {
+    flex-basis: 100%;
+  }
+
+  /* ================ testimonial section ================ */
+  .arrow-buttons {
+    font-size: 1.5rem;
+    top: 1.5rem;
+    right: 2rem;
+  }
+
+  .swiper-button {
+    /* display: none; */
+  }
+}
+/* ================ learge screen ================ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* utilities */
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  /* carousel section */
+  .carousel-inner .carousel-item img {
+    height: 450px;
+  }
+  .carousel-caption {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto 6rem;
+  }
+  button.btn {
+    padding: 6px 25px;
+    border-radius: 25px;
+  }
+
+  /*  ================= About me section ================= */
+  .about-myself {
+    margin: 3rem 0;
+    /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  }
+  .stroke-line {
+    width: 50px;
+    margin: 0 1rem;
+  }
+
+  /* ================= portfolio section ================= */
+  .portfolio-box {
+    padding: 1rem;
+  }
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    /* top: 4.5rem; */
+  }
+
+  #toggle-content {
+    padding: 2.5rem 0;
+  }
+
+  .go-back {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /* ================== pricing section ================== */
+  #pricing-section-text-p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* ================= testimonial section ================= */
+  .client-message {
+    max-width: 90%;
+  }
+  .arrow-buttons {
+    font-size: 1.7rem;
+    top: 1.5rem;
+    right: 5rem;
+  }
+}
+/* ================ extra learge screen  ================*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* utilities */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  /* carousel section */
+  .carousel-inner .carousel-item img {
+    height: 550px;
+  }
+  .carousel-caption {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 8rem;
+  }
+  button.btn {
+    padding: 6px 25px;
+    border-radius: 25px;
+  }
+
+  /*  ================= About me section ================= */
+  .about-myself {
+    margin: 3rem 0;
+    /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  }
+
+  /* =============== testimonial section =============== */
+  .client-message-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* ================== pricing section ================== */
+  #pricing-section-text-p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    /* top: 5rem; */
+  }
+
+  #toggle-content {
+    padding: 3rem 0;
+  }
+
+  .go-back {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* ================= testimonial section ================= */
+  .client-message-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .client-message {
+    max-width: 75%;
+  }
+}
+
+/* ================ x-extra learge screen  ================*/
+@media screen and (min-width: 1400px) {
+  /* utilities */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  /* carousel section */
+  .carousel-inner .carousel-item img {
+    height: 600px;
+  }
+  .carousel-caption {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 8rem;
+  }
+  button.btn {
+    padding: 6px 25px;
+    border-radius: 25px;
+  }
+
+  /*  ================= About me section ================= */
+  .about-myself {
+    margin: 3rem 0;
+    /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  }
+
+  /* ================== pricing section ================== */
+  #pricing-section-text-p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* ================ portfolio section ================ */
+
+  /* portfolio toggle content */
+  #portfolio-toggle-container {
+    /* top: 5rem; */
+  }
+
+  #toggle-content {
+    padding: 3rem 0;
+  }
+
+  .go-back {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* ================= testimonial section ================= */
+  .client-message-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .client-message {
+    max-width: 75%;
+  }
+}

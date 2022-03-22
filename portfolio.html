@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- fav icon -->
+    <link
+      rel="shortcut icon"
+      href="images/shapes/shape-7.png"
+      type="image/x-icon"
+    />
+
+    <title>my portfolio</title>
+  </head>
+  <body>
+    <!-- ================= my portfolio ================= -->
+
+    <section id="toggle-content">
+      <div id="portfolio-toggle-container" class="container">
+        <div class="section-header toggle-content-header">
+          <h2>logo design</h2>
+        </div>
+
+        <!-- portfolio boxes -->
+        <div
+          id="portfolio-section"
+          class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-4"
+        ></div>
+      </div>
+    </section>
+
+    <!-- javascript file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // project names
+      let titleArray = ["logo", "banner", "photo", "flyer"];
+
+      // projects detailes
+      let descriptionArray = [
+        "logo design",
+        "banner design",
+        "photo editing",
+        "flyer design",
+      ];
+
+      // stock price
+      let stockPrice = [30, 50, 45, 15];
+
+      const parentDiv = document.getElementById("portfolio-section");
+      for (let i = 0; i < titleArray.length; i++) {
+        let fetch = document.getElementById("portfolio-section").innerHTML;
+        parentDiv.innerHTML =
+          fetch +
+          `
+            <div class="col">
+              <div id="portfolio-box" class="portfolio-box">
+                <div class="portfolio-image">
+                  <img
+                    class="img-fluid"
+                    src="images/portfolios/h4-product-10.jpg"
+                    alt=""
+                  />
+                  <div class="btn hello show-more">
+                    <a href="#">show more
+                      <i style="margin-left: 5px;" class="fa-solid fa-right-long"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-text">
+                  <div class="project-name">
+                    <h3>
+                      ${titleArray[i]}
+                    </h3>
+                    <small>${descriptionArray[i]}</small>
+                  </div>
+                  <div class="project-price">
+                    <div class="stock-price">
+                      <span>tk. ${stockPrice[i]}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            `;
+      }
+    </script>
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
